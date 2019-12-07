@@ -1,0 +1,23 @@
+{
+  "name": "its",
+  "version": "0.1.0",
+  "description": "ITS - Interstellar Trading Simulator",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjmarsh725/ITS.git"
+  },
+  "author": "Chris Marsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjmarsh725/ITS/issues"
+  },
+  "homepage": "https://github.com/cjmarsh725/ITS#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
