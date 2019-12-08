@@ -4,7 +4,7 @@
   "description": "ITS - Interstellar Trading Simulator",
   "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "rollup -cw"
   },
   "repository": {
     "type": "git",
