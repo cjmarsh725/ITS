@@ -1,9 +1,8 @@
-let app = new PIXI.Application({ 
-  width: 800,         // default: 800
-  height: 600,        // default: 600
-  antialias: true,    // default: false
-  transparent: false, // default: false
-  resolution: 1       // default: 1
-});
+let app = new PIXI.Application();
+
+app.renderer.view.style.position = "absolute";
+app.renderer.view.style.display = "block";
+app.renderer.autoResize = true;
+app.renderer.resize(window.innerWidth, window.innerHeight);
 
 document.body.appendChild(app.view);
